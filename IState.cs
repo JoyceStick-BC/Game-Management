@@ -32,6 +32,6 @@ using UnityEngine;
 
 public interface IState
 {
-    void Init();
+    void Init(GameManager gameManager);
     void Run();
 }
